@@ -606,10 +606,8 @@ productAddBtn.onclick = () => {
 
 // loading
 window.addEventListener("load", function () {
-  console.log("window loaded");
 
   const loader = document.getElementById("app-loading-overlay");
-  console.log(loader);
 
   setTimeout(() => {
     loader.style.opacity = "0";
